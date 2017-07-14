@@ -25,10 +25,13 @@ Route::get('about',[
           'as' => 'about',
           'uses'  => 'AboutController@index'
         ]);
-Route::get('/services',function () {
-	return view('services');
-});
-
+// Route::get('/services',function () {
+// 	return view('services');
+// });
+Route::get('/services',[
+          'as' => 'services',
+          'uses'  => 'ServicesController@index'
+        ]);
 Route::get('/portfolio',function () {
 	return view('portfolio');
 });

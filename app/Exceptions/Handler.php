@@ -105,7 +105,7 @@ class Handler extends ExceptionHandler
             } 
             exit();
         }
-        //dd($e);
+        dd($e);
         if($e instanceof QueryException)
         {    
             if($api_url)

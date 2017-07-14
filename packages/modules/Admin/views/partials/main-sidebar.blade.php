@@ -33,6 +33,17 @@
            <li class="{{ (isset($page_action) && $page_action=='View User')?"active":'' }}"><a href="{{ route('user')}}"><i class="fa  fa-list"></i> View User</a></li>
         </ul>
       </li>
+  <li class="treeview {{ (isset($page_action) && $page_title=='Homepage')?"active":'' }} ">
+        <a href="#">
+          <i class="fa fa-user"></i>
+          <span>Homepage Management</span>
+          <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+          <li class="{{ (isset($page_action) && $page_action=='Create Content Section')?"active":'' }}" ><a href="{{ route('homepage.create')}}"><i class="fa fa-user-plus"></i> Create Content Section</a></li>
+           <li class="{{ (isset($page_action) && $page_action=='View Content Section')?"active":'' }}"><a href="{{ route('homepage')}}"><i class="fa  fa-list"></i> View Content Section</a></li>
+        </ul>
+      </li>      
    <li class="treeview {{ (isset($page_action) && $page_title=='Menu')?"active":'' }} ">
         <a href="#">
           <i class="fa fa-user"></i>
@@ -40,8 +51,8 @@
           <i class="fa fa-angle-left pull-right"></i>
         </a>
         <ul class="treeview-menu">
-          <li class="{{ (isset($page_action) && $page_action=='Create Menu')?"active":'' }}" ><a href=""><i class="fa fa-user-plus"></i> Create Menu</a></li>
-           <li class="{{ (isset($page_action) && $page_action=='View Menu')?"active":'' }}"><a href=""><i class="fa  fa-list"></i> View Menu</a></li>
+          <li class="{{ (isset($page_action) && $page_action=='Create Menu')?"active":'' }}" ><a href="{{ route('menu.create')}}"><i class="fa fa-user-plus"></i> Create Menu</a></li>
+           <li class="{{ (isset($page_action) && $page_action=='View Menu')?"active":'' }}"><a href="{{ route('menu')}}"><i class="fa  fa-list"></i> View Menu</a></li>
         </ul>
       </li>     
  <li class="treeview {{ (isset($page_action) && $page_title=='Page')?"active":'' }} ">

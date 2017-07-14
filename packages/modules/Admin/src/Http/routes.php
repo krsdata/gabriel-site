@@ -43,13 +43,32 @@
         );
         /*---------End---------*/   
 
+        /*------------Homepage Model and controller---------*/
+
+        Route::bind('homepage', function($value, $route) {
+            return Modules\Admin\Models\Homepage::find($value);
+        });
+
+        Route::resource('admin/homepage', 'Modules\Admin\Http\Controllers\HomePageController', [
+            'names' => [
+                'edit' => 'homepage.edit',
+                'show' => 'homepage.show',
+                'destroy' => 'homepage.destroy',
+                'update' => 'homepage.update',
+                'store' => 'homepage.store',
+                'index' => 'homepage',
+                'create' => 'homepage.create',
+            ]
+                ]
+        );
+        /*---------End---------*/ 
         /*------------Page Model and controller---------*/
 
         Route::bind('menu', function($value, $route) {
             return Modules\Admin\Models\Menu::find($value);
         });
 
-        Route::resource('admin/page', 'Modules\Admin\Http\Controllers\MenuController', [
+        Route::resource('admin/menu', 'Modules\Admin\Http\Controllers\MenuController', [
             'names' => [
                 'edit' => 'menu.edit',
                 'show' => 'menu.show',

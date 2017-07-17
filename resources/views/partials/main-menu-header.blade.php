@@ -4,7 +4,7 @@
 				<div class="col-sm-3">
 					<div class="logo">
 					
-						<img src="{{ asset('public/assets/img/logo.png') }}" alt="">
+						<img src="{{ asset('assets/img/logo.png') }}" alt="">
 					</div>
 				</div>
 				<div class="col-sm-9">
@@ -16,12 +16,11 @@
                                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                       <ul class="nav navbar-nav">
-                       <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="company.html">About</a></li>
-                         <li><a href="services.html">Services</a></li>
-                          <li><a href="portfolio.html">Portfolio</a></li>
-                           <li><a href="company.html">Company</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                       <li class="active"><a href="{{url('/')}}">Home</a></li>
+                        <li><a href="{{ url('about-company') }}">About Company</a></li>
+                         <li><a href="{{ url('services') }}">Services</a></li>
+                          <li><a href="{{ url('portfolio') }}">Portfolio</a></li>
+                            <li><a href="{{ url('contact') }}">Contact</a></li>
                       </ul>
                       
                     </div>

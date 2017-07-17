@@ -6,18 +6,11 @@
 					<p>Unleashing true business value potential of our exclusive clientele with our premium services</p>
 					<div class="owl-carousel owl-theme">
 					
-						<div class="item"><img src="{{ asset('public/assets/frontend/img/portfolio1.jpg') }}" alt=""></div>
-						<div class="item"><img src="{{ asset('public/assets/frontend/img/portfolio1.jpg') }}" alt=""></div>
-						<div class="item"><img src="{{ asset('public/assets/frontend/img/portfolio1.jpg') }}" alt=""></div>
-						<div class="item"><img src="{{ asset('public/assets/frontend/img/portfolio1.jpg') }}" alt=""></div>
-						<div class="item"><img src="{{ asset('public/assets/frontend/img/portfolio1.jpg') }}" alt=""></div>
-						<div class="item"><img src="{{ asset('public/assets/frontend/img/portfolio1.jpg') }}" alt=""></div>
-						<div class="item"><img src="{{ asset('public/assets/frontend/img/portfolio1.jpg') }}" alt=""></div>
-						<div class="item"><img src="{{ asset('public/assets/frontend/img/portfolio1.jpg') }}" alt=""></div>
-						<div class="item"><img src="{{ asset('public/assets/frontend/img/portfolio1.jpg') }}" alt=""></div>
-						<div class="item"><img src="{{ asset('public/assets/frontend/img/portfolio1.jpg') }}" alt=""></div>
-						<div class="item"><img src="{{ asset('public/assets/frontend/img/portfolio1.jpg') }}" alt=""></div>
-						<div class="item"><img src="{{ asset('public/assets/frontend/img/portfolio1.jpg') }}" alt=""></div>
+						<div class="item"><img src="{{ asset('assets/img/portfolio5.jpg') }}" alt=""></div>
+						<div class="item"><img src="{{ asset('assets/img/portfolio2.jpg') }}" alt=""></div>
+						<div class="item"><img src="{{ asset('assets/img/portfolio3.jpg') }}" alt=""></div>
+						<div class="item"><img src="{{ asset('assets/img/portfolio4.jpg') }}" alt=""></div>
+						<div class="item"><img src="{{ asset('assets/img/portfolio1.jpg') }}" alt=""></div>
 						
 					</div>
 				</div>

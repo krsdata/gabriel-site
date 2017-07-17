@@ -3,11 +3,11 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<ul class="nav nav-tabs" role="tablist">					
-						<li role="presentation" class="active"><a href="#mobile" aria-controls="mobile" role="tab" data-toggle="tab"><img src="{{ asset('public/assets/img/mobile.png') }}" alt=""></a><span>Mobile</span></li>
-						<li role="presentation"><a href="#web" aria-controls="web" role="tab" data-toggle="tab"><img src="{{ asset('public/assets/img/web.png') }}" alt=""></a><span>Web</span></li>
-						<li role="presentation"><a href="#seo" aria-controls="seo" role="tab" data-toggle="tab"><img src="{{ asset('public/assets/img/seo.png') }}" alt=""></a><span>Seo & Marketing</span></li>
-						<li role="presentation"><a href="#cms" aria-controls="cms" role="tab" data-toggle="tab"><img src="{{ asset('public/assets/img/cms.png') }}" alt=""></a><span>CMS & Ecommerce</span></li>
-						<li role="presentation"><a href="#enter" aria-controls="enter" role="tab" data-toggle="tab"><img src="{{ asset('public/assets/img/enter.png') }}" alt=""></a><span>Enetrprise Solution</span></li>
+						<li role="presentation" class="active"><a href="#mobile" aria-controls="mobile" role="tab" data-toggle="tab"><img src="{{ asset('assets/img/mobile.png') }}" alt=""></a><span>Mobile</span></li>
+						<li role="presentation"><a href="#web" aria-controls="web" role="tab" data-toggle="tab"><img src="{{ asset('assets/img/web.png') }}" alt=""></a><span>Web</span></li>
+						<li role="presentation"><a href="#seo" aria-controls="seo" role="tab" data-toggle="tab"><img src="{{ asset('assets/img/seo.png') }}" alt=""></a><span>Seo & Marketing</span></li>
+						<li role="presentation"><a href="#cms" aria-controls="cms" role="tab" data-toggle="tab"><img src="{{ asset('assets/img/cms.png') }}" alt=""></a><span>CMS & Ecommerce</span></li>
+						<li role="presentation"><a href="#enter" aria-controls="enter" role="tab" data-toggle="tab"><img src="{{ asset('assets/img/enter.png') }}" alt=""></a><span>Enetrprise Solution</span></li>
 					 </ul>
 
 				</div>

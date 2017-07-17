@@ -16,48 +16,51 @@
 					<div class="m-sevices-box-main">
      <ul>
       <li>
-       <div class="services-img-box mobile"><span><a href="#/mobile-app-development.html">Mobile App Development</a></span></div>
+       <div class="services-img-box mobile"><span>
+       <a href="{{ url('service-details?Mobile App Development')}}">Mobile App Development</a></span></div>
        <ul>
-        <li> <a href="#/mobile-application-development/iphone-application-development.html">iPhone App Development</a></li>
-        <li><a href="#/ipad-application-development.html">iPad App Development</a></li>
-        <li><a href="#/android-application-development.html">Android App Development</a></li>
-        <li><a href="#/windows-mobile-application-development.html">Windows Phone App Development</a></li>
-        <li><a href="#/cross-platform-mobile-app-development-india.html"><i class="c-platform-d-icon"></i>Cross Platform App Development</a></li>
-        <li><a href="#/swift-app-development-services-company.html">Swift App Development</a></li>
-		<li><a href="#/blackberry-application-development.html">BlackBerry App Development</a></li>
+        <li> <a href="{{ url('service-details?iPhone App Development')}}">iPhone App Development</a></li>
+        <li><a href="{{ url('service-details?iPad App Development')}}">iPad App Development</a></li>
+        <li><a href="{{ url('service-details?Android App Development')}}">Android App Development</a></li>
+        <li><a href="{{ url('service-details?Windows Phone App Development')}}">Windows Phone App Development</a></li>
+        <li><a href="{{ url('service-details?Cross Platform App Development')}}"><i class="c-platform-d-icon"></i>Cross Platform App Development</a></li>
+        <li><a href="{{ url('service-details?Swift App Development')}}">Swift App Development</a></li>
+		<li><a href="{{ url('service-details?BlackBerry App Development')}}">BlackBerry App Development</a></li>
        </ul>
       </li>
       <li>
-       <div class="services-img-box web"><span><a href="#/web-application-development.html">Web Development</a></span></div>
+       <div class="services-img-box web"><span>
+       <a href="{{ url('service-details?Web Development')}}">Web Development</a></span></div>
        <ul>
-        <li><a href="#/php-development.html">PHP Development</a></li>
-        <li><a href="#/asp-net-development.html">ASP.Net Development</a></li>
-        <li><a href="#/ruby-on-rails-development.html">Ruby on Rails Development</a></li>
-        <li><a href="#/nodejs-development.html">Node JS Development</a></li>
-        <li><a href="#/ui-ux-development.html">UX Design Services</a></li>
-		<li><a href="#/laravel-framework-development.html">Laravel Development</a></li>
+        <li><a href="{{ url('service-details?PHP-Development')}}">PHP Development</a></li>
+        <li><a href="{{ url('service-details?ASP.Net Development')}}">ASP.Net Development</a></li>
+        <li><a href="{{ url('service-details?Ruby on Rails Development')}}">Ruby on Rails Development</a></li>
+        <li><a href="{{ url('service-details?Node JS Development')}}">Node JS Development</a></li>
+        <li><a href="{{ url('service-details?UX Design Services')}}">UX Design Services</a></li>
+		<li><a href="{{ url('service-details?Laravel Development')}}">Laravel Development</a></li>
        </ul>
       </li>
       <li>
-       <div class="services-img-box cms"><span><a href="#/opensource.html">CMS &amp; Ecommerce</a></span></div>
+       <div class="services-img-box cms"><span>
+       <a href="{{ url('service-details?CMS & Ecommerce')}}">CMS &amp; Ecommerce</a></span></div>
        <ul>
-        <li><a href="#/drupal-development.html">Drupal Development</a></li>
-        <li><a href="#/magento-development.html">Magento Development</a></li>
-        <li><a href="#/wordpress-development.html">WordPress Development</a></li>
-        <li><a href="#/joomla-development.html">Joomla Development</a></li>
-        <li><a href="#/aspdotnetstorefront-development-india.html"><i class="cms-aspdotNet-icon"></i>AspDotNetStorefront Development</a></li>
-        <li><a href="#/dotnetnuke-dnn-development-india.html"><i class="cms-dotnetnuke-icon"></i>DotNetNuke Development</a></li>
+        <li><a href="{{ url('service-details?Drupal Development')}}">Drupal Development</a></li>
+        <li><a href="{{ url('service-details?Magento Development')}}">Magento Development</a></li>
+        <li><a href="{{ url('service-details?WordPress Development')}}">WordPress Development</a></li>
+        <li><a href="{{ url('service-details?Joomla Development')}}">Joomla Development</a></li> <li>
+      <a href="{{ url('service-details?Web Commerce')}}">Web Commerce</a></li>
        </ul>
       </li>
       <li class="trending-tech">
-		  <div class="services-img-box trending"><span><a href="#/emerging-technology-services.html">Emerging Technology</a></span></div>
+		  <div class="services-img-box trending"><span>
+      <a href="{{ url('service-details?Emerging Technology')}}">Emerging Technology</a></span></div>
        <ul>
-        <li><a href="#/apple-watch-application-development.html"><i class="a-watch-icon"></i>Apple Watch Development</a></li>
-        <li><a href="#/ibeacon-application-development.html">iBeacon App Development</a></li>
-        <li><a href="#/augmented-reality-application-development.html">AR Apps Development</a></li>
-        <li><a href="#/big-data-analytics.html">Big Data Services</a></li>
-        <li><a href="#/amazon-web-services-aws.html">Amazon Web Services (AWS)</a></li>
-        <li><a href="#"><i class="internet-icon"></i>Internet of Things</a></li>
+        <li><a href="{{ url('service-details?Apple Watch Development')}}"><i class="a-watch-icon"></i>Apple Watch Development</a></li>
+        <li><a href="{{ url('service-details?iBeacon App Developmen')}}">iBeacon App Development</a></li>
+        <li><a href="{{ url('service-details?AR Apps Development')}}">AR Apps Development</a></li>
+        <li><a href="{{ url('service-details?Big Data Services')}}">Big Data Services</a></li>
+        <li><a href="{{ url('service-details?Amazon Web Services (AWS)')}}">Amazon Web Services (AWS)</a></li>
+        <li><a href="{{ url('service-details?Internet of Things')}}"><i class="internet-icon"></i>Internet of Things</a></li>
        </ul>
       </li>
      </ul>     

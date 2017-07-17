@@ -5,9 +5,9 @@ namespace App\Http\Controllers;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 use Auth;  
-use Modules\Admin\Models\About;
 use View;
 use Html;
+use Input;
 
 class AboutController extends Controller
 {
@@ -19,7 +19,6 @@ class AboutController extends Controller
     public function __construct(Request $request) {
 
      
-        //View::share('category_name',$request->segment(2));
     }
 
     /**
@@ -29,12 +28,7 @@ class AboutController extends Controller
      */
     public function index($id=null)
     {
-       // $categories = Category::nested()->get();
-
-
-        
-        $data = About::with('category')->orderBy('id','asc')->get();
-          return view('about',compact('html')); 
+        return view('about',compact('html'));
 
     } 
     

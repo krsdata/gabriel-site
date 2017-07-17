@@ -8,33 +8,22 @@
 			</div>
 			
 			<div class="row portfolio-in">
+				
 				<div class="col-sm-4">
-					<img src="{{ asset('public/assets/frontend/img/portfolio1.jpg') }}">
+					<img src="{{ asset('assets/img/portfolio1.jpg') }}">
 				</div>
 				<div class="col-sm-4">
-					<img src="{{ asset('public/assets/frontend/img/portfolio1.jpg') }}">
+					<img src="{{ asset('assets/img/portfolio2.jpg') }}">
 				</div>
 				<div class="col-sm-4">
-					<img src="{{ asset('public/assets/img/portfolio1.jpg') }}">
+					<img src="{{ asset('assets/img/portfolio3.jpg') }}">
 				</div>
 				<div class="col-sm-4">
-					<img src="{{ asset('public/assets/img/portfolio1.jpg') }}">
+					<img src="{{ asset('assets/img/portfolio4.jpg') }}">
 				</div>
 				<div class="col-sm-4">
-					<img src="{{ asset('public/assets/img/portfolio1.jpg') }}">
-				</div>
-				<div class="col-sm-4">
-					<img src="{{ asset('public/assets/img/portfolio1.jpg') }}">
-				</div>
-				<div class="col-sm-4">
-					<img src="{{ asset('public/assets/img/portfolio1.jpg') }}">
-				</div>
-				<div class="col-sm-4">
-					<img src="{{ asset('public/assets/img/portfolio1.jpg') }}">
-				</div>
-				<div class="col-sm-4">
-					<img src="{{ asset('public/assets/img/portfolio1.jpg') }}">
-				</div>
+					<img src="{{ asset('assets/img/portfolio5.jpg') }}">
+				</div> 
 			</div>
 			
 		</div>

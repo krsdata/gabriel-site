@@ -14,14 +14,12 @@
 
 
 */
-Route::get('',[
+Route::get('/',[
           'as' => 'home',
           'uses'  => 'HomeController@index'
         ]);
-// Route::get('/', function () {
-// 		return view('home');
-// });
-Route::get('about',[
+
+Route::get('about-company',[
           'as' => 'about',
           'uses'  => 'AboutController@index'
         ]);
@@ -37,9 +35,14 @@ Route::get('/contact',function () {
 	return view('contact');
 });
 
-Route::get('/service-details',function () {
+Route::get('services',function () {
+	return view('services');
+});
+
+Route::get('service-details',function () {
 	return view('service-details');
 });
+
 
 // Route::match(['post','get'],'cat','HomeController@index');
 
